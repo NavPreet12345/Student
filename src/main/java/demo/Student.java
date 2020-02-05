@@ -14,6 +14,7 @@ public class Student {
     String name;
     String Address;
     int phone;
+    String email;
 
     public int getPhone() {
         return phone;
