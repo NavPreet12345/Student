@@ -10,14 +10,23 @@ package demo;
  * @author Navpreet Kaur Jhajj
  */
 public class Student {
+
     String name;
     String Address;
     int phone;
+
+    public int getPhone() {
+        return phone;
+    }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
+    }
+
     public Student() {
-         this.name = "Navpreet";
+        this.name = "Navpreet";
         this.Address = "34 CCC B ";
     }
-    
 
     public Student(String name, String Address) {
         this.name = name;
@@ -39,8 +48,5 @@ public class Student {
     public void setAddress(String Address) {
         this.Address = Address;
     }
-    
-    
-  
-    
+
 }
