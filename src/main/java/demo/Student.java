@@ -12,7 +12,7 @@ package demo;
 public class Student {
     String name;
     String Address;
-
+    int phone;
     public Student() {
          this.name = "Navpreet";
         this.Address = "34 CCC B ";
