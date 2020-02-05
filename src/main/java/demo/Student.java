@@ -17,6 +17,7 @@ public class Student {
          this.name = "Navpreet";
         this.Address = "34 CCC B ";
     }
+    
 
     public Student(String name, String Address) {
         this.name = name;
